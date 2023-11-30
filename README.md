@@ -1,6 +1,6 @@
 # VerifyingL1RollupData_Part-1_Demo-nstallation
 
-##command for CTC
+## command for CTC
 ```shell
 solcjs --abi CanonicalTransactionChain.sol
 ```
@@ -15,7 +15,8 @@ abigen --bin=ICanonicalTransactionChain_sol_ICanonicalTransactionChain.bin --abi
 CanonicalTransactionchain.go created
 
 
-##command for SCC
+
+## command for SCC
 ```shell
 solcjs --abi StateCommitmentChain.sol
 ```
@@ -31,10 +32,13 @@ abigen --bin=IStateCommitmentChain_sol_IStateCommitmentChain.bin --abi=IStateCom
 ```
 StateCommitmentChain.go created
 
-##command for running main package
+
+
+## command for running main package
 ```shell
 go run event_read.go
 ```
+
 
 
 ## error
